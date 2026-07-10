@@ -17,6 +17,12 @@
     border: none;
     border-radius: 10px;
 }
+h2{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64.4px;
+    color: #000102;
+}
 
 /* nav Section Start */
 
@@ -86,3 +92,52 @@ h1{
     margin-top: 30%;
 }
 /* Hero Banner End */
+
+/* Speaker Section Start */
+
+#section-heading{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#department{
+    font-size: 12px;
+    font-weight: 400;
+    color: #1D4ED8;
+}
+.card h5{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.5px;
+    color:#0D1B2A;
+    
+}
+#designation{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #575757;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.card{
+    border: 1px solid rgb(230, 226, 226);
+    border-radius: 10px;
+}
+
+.speaker-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    margin-top: 40px;
+}
+#card-content{
+    margin: 12px 12px;
+}
+
+.card{
+    display: grid;
+    gap: 8px;
+}
