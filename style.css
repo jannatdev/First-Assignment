@@ -263,3 +263,99 @@ h1{
 
 /* Pricing Card Section End */
 
+.schedule{
+    background-image:linear-gradient(45deg, rgba(136, 73, 227, 0.9) 
+    0%, rgba(73, 145, 227, 0.9) 100%),
+      url(./assets/bgimage.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    margin-top: 80px;
+}
+#schedule-heading{
+    
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+#schedule-para{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+thead{
+    background-color: #0d111e;
+    
+    
+}
+
+th{
+    padding: 20px 24px;
+}
+th> #thead-first{
+    background-color: #1D4ED8;
+}
+ th h3{
+    color: white;
+    font-size: 36px;
+}
+th p{
+    font-size: 16px;
+    color: white;
+}
+tbody tr{
+    padding: 20px;
+    background-color: #80bdf9;
+    opacity: .5;
+    
+}
+td{
+    padding: 20px;
+}
+td img{
+    width: 80px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #1D4ED8;
+    
+}
+td h4{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+td p{
+    font-size: 14px;
+    color: #0404fe;
+}
+
+table{
+    border-collapse: collapse;
+    
+}
+td{
+    border: 1px solid rgb(193, 183, 183);
+}
+#thead-first{
+    background-color: #1D4ED8;
+}
+th span{
+    color: #1D4ED8;
+}
+td h4{
+    color: #000102;
+
+}
+td{
+
+color: #000102;
+}
+
+
+    
+
+
+
