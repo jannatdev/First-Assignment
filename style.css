@@ -141,3 +141,125 @@ h1{
     display: grid;
     gap: 8px;
 }
+
+/* Speaker Section End */
+
+/* Pricing Card Section Started */
+
+.price-card-content{
+   text-align: center;
+   margin-top: 80px;
+   display: grid;
+   gap: 12px;
+}
+.price-card-content h2{
+    font-size: 44px;
+}
+.price-card-content p{
+    font-size: 16px;
+    color: #575757;
+    margin-bottom: 40px;
+}
+
+.pricing-card-first-part p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: #888888;
+    
+}
+.pricing-card-first-part h4{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #0D1B2A;
+    margin: 12px 0;
+}
+.pricing-card-first-part{
+    margin: 24px 0;
+}
+.pricing-card-second-part ul{
+    display: grid;
+    gap: 12px;
+}
+.pricing-card-second-part ul li{
+    list-style-type: disc ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #333333;
+
+    
+}
+.primary-button-two{
+    background-color: #1D4ED8;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 8px 40%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 24px;
+}
+.secondary-button{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #1D4ED8;
+    border: 1px solid #1D4ED8;
+    padding: 8px 30%;
+    border-radius: 10px;
+    margin-top: 24px;
+}
+.secondary-button-two{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #000102;
+    border: 1px solid #000102;
+    padding: 8px 30%;
+    border-radius: 10px;
+    margin-top: 24px;
+}
+.pricing-card-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 44px;
+}
+.pricing-card-one  {
+    border: 1px solid #ede5e5;
+    padding: 24px 40px;
+    display: grid;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.pricing-card-three{
+     border: 1px solid #ede5e5;
+    padding: 24px 40px;
+    display: grid;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.pricing-card-two{
+   border: 1px solid #ede5e5;
+    padding: 24px 40px;
+    display: grid;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #000102; 
+}
+.pricing-card-two h4{
+    color: white;
+    margin: 12px 0;
+}
+.pricing-card-two ul li{
+    color: white;
+}
+.pricing-card-two #para-one{
+    color: #1D4ED8;
+}
+
+/* Pricing Card Section End */
+
