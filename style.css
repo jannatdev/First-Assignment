@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+/* Common Style */
+.container{
+    max-width: 1280px;
+    margin: auto;
+    }
+.primary-button{
+    background-color: #1D4ED8;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* nav Section Start */
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 0;
+
+}
+ul{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+ul li {
+    list-style: none;
+    
+}
+ul li {
+    list-style: none;
+    
+}
+ul li a:hover{
+    color: #1D4ED8;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #575757;
+}
+/* Nav Section End */
+header{
+    background-image:linear-gradient(to bottom, #140a1e80, #1b1c1e80),  url(./assets/banner.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    
+
+}
+
+h1{
+    font-size: 80px;
+    font-weight:700 ;
+    line-height: 80px;
+    letter-spacing: -3.2px;
+    color: white;
+}
+.hero-content{
+    margin-top: 20%;
+    text-align: center;
+}
+.hero-content p{
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    line-height: 24px;
+    margin-top: 16px;
+}
+.hero-content button{
+    margin-top: 30%;
+}
+/* Hero Banner End */
