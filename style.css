@@ -354,7 +354,83 @@ td{
 color: #000102;
 }
 
+/* Schedule End */
+/* Footer Start */
 
+footer{
+    background-color: #e9ebf5;
+   
+    margin-top: 80px;
+}
+.footer-parent{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.footer-middle-side ul{
+    display: grid;
+    color: #0d111e;
+    cursor: pointer;
+    
+   
+}
+
+
+
+form{
+    display: grid;
+    gap: 8px;
+    background-color: white;
+    padding: 12px;
+    box-shadow: 5px 5px 36px rgb(182, 180, 180);
+    margin-bottom: 12px;
+}
+.footer-middle-side h4{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.footer-right-side h4{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+}
+form input{
+    padding: 6px;
+    font-size: 12px;
+   border: 1px solid rgb(207, 206, 206);
+   border-radius: 5px;
+}
+form textarea{
+  border: 1px solid rgb(207, 206, 206);
+   border-radius: 5px;  
+}
+.social-icon{
+    font-size: 18px;
+    color: #0404fe;
+    margin-top: 8px;
+}
+ .copyright{
+    background-color: #020230;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+ }
+.copyright p{
+    color: #888888;
+    font-size: 14px;
+    margin-left: 8%;
+}
+.privacy{
+    margin-right: 8%;
+}
+.privacy a{
+    text-decoration: none;
+     font-size: 14px;
+     color: #888888;}
     
 
 
